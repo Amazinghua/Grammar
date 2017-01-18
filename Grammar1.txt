@@ -1,0 +1,41 @@
+﻿//语法学习
+mood="happy";
+age=33;
+
+var mood ="happy";
+var age ="33;
+
+var mood ="happy",age =33;
+
+var mood, age;
+mood ="happy";
+age =33;
+
+var mood = 'happy';
+var mood = "happy";
+
+var mood ="don't ask"
+//转义
+var mood ='don\'t ask';
+//数值
+var age = 33.25;
+//布尔值
+var married = true;
+var married = "true";
+//数组
+var beatles = Array(4);
+beatles[0] = "John";
+beatles[1] = "Pual";
+beatles[2] = "George";
+beatles[3] ="Ringo";
+
+var years = [ 1940, 1941, 1942, 1943 ];
+//数组元素可以是变量
+//可以把不同数据类型混在一起存入一个数组
+var name = "John";
+beatles[0] =name;
+//下一节2.26
+
+
+
+
