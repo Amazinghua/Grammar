@@ -1,0 +1,31 @@
+var lennon = Object();
+lennon.name = "John"
+lennon.year = "1940"
+lennon.living = "false"
+
+//对象
+
+var lennon = { name:"John", year:1940, living:false };
+var beatles = Array();
+beatles[0] = lennon;
+//beatles[0].var name 得到值"John"
+
+//算数操作符
+year = year + 1;
+year++;
+
+var message = "I am feeling"+"happy";
+
+var mood = "happy"
+var message = "I am feeling"+ mood;
+
+//字符串加数值得到更长的字符串
+//数值加在一起得到算术和
+
+//拼接和赋值
+var year = 2010;
+var message = "The year is ";
+message += year;
+alert(message);
+
+//条件语句
