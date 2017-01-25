@@ -8,7 +8,8 @@
     <h2>Snapshots<h2>
         <ul>
             <li>
-                <a href="Images/fireworks.jpg" title="A fireworks display"> Fireworks</a>
+                <a href="Images/fireworks.jpg" onclick="showPic(this);
+                return false;" title="A fireworks display"> Fireworks</a>
             </li>
             <li>
                 <a href="Images/rose.jpg" title="A red, red rose">Rose</a>
@@ -17,5 +18,7 @@
                 <a href="Images/bigben.jpg" title="The famous clock">Big ben</a>
             </li>
         </ul>
+        <img id="placeholder" scr="images/placeholder.gif" alt="my Image Gallery" />
+        <script type="text/javascript" src="scripts/showPic.js"></script>
             </body>
             </html>
