@@ -3,6 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <title>Image Gallery</title>
+        <style>
+        p {
+            color: yellow;
+            font-family: "arial", sans-serif;
+            font-size: 1.2em;
+        }
+        </style>
     </head>
     <body>
     <h2>Snapshots<h2>
@@ -12,13 +19,21 @@
                 return false;" title="A fireworks display"> Fireworks</a>
             </li>
             <li>
-                <a href="Images/rose.jpg" title="A red, red rose">Rose</a>
+                <a href="Images/rose.jpg" onclick="showPic(this);
+                 return false;" title="A red, red rose">Rose</a>
             </li>
             <li>
-                <a href="Images/bigben.jpg" title="The famous clock">Big ben</a>
+                <a href="Images/bigben.jpg" onclick="showPic(this);
+                 return false;" title="The famous clock">Big ben</a>
             </li>
         </ul>
-        <img id="placeholder" scr="images/placeholder.gif" alt="my Image Gallery" />
+        <img id="placeholder" src="images/placeholder.gif" alt="my Image Gallery" />
         <script type="text/javascript" src="scripts/showPic.js"></script>
+        <style>
+        body {
+            color: red;
+            background-color: black;
+        }
+        </style>
             </body>
             </html>
