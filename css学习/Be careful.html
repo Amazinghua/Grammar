@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>javasccript伪协议</title>
+        <a href="http://www.example.com/"
+        onclick="popUp(this.getAttribute('href')); return false;">Example</a>
+        <script>
+        function popUp(winURL) {
+            window.open(winURL,"popup","width=600,height=480");
+        }
+        </script>
+        <p class="warning">
+            Be careful !
+        </p>
+        <link href="Untitled-1.css" rel="Untitled-1" type="text/css" />
+    </head>
