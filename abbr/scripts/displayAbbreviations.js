@@ -11,6 +11,7 @@ function displayAbbreviations() {
     //遍历这些缩略词
     for (var i=0; i<abbreviations.length; i++) {
         var current_abbr = abbreviations[i];
+        if(current_abbr.childNodes.length < 1) continue;
         var definition = current_abbr.getAttribute("title");
         var key = current_abbr.lastChild.nodeValue;
         defs[key] = definition;
@@ -32,6 +33,7 @@ function displayAbbreviations() {
         dlist.appendChild(dtitle);
         dlist.appendChild(ddesc);
     }
+    if (dlist.childNodes.length < 1) return false;
     //创建标题
     var header = document.createElement("h2");
     var header_text = document.createTextNode(Abbreviations);
