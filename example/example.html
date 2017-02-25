@@ -8,12 +8,14 @@
             var para = document.getElementById("example");
             alert(typeof para.nodeName);
             alert(typeof para.style);
+            alert("The font family is " + para.style.fontFamily);
+            alert("The color is " + para.style.color);
             //DOM属性fontfamliy的值与css属性font-famliy的值是一样的
         }
         </script>
     </head>
     <body>
-        <p id="example" style="color: gery; font-family: 'Arial,sans-serif;'">
+        <p id="example" style="color: #999999; font-family: 'Arial,sans-serif;'">
             An example of a paragraph
         </p>
     </body>
