@@ -18,3 +18,4 @@ function getNextElement(node) {
     }
     return null;
 }
+addLoadEvent(styleHeaderSiblings);
