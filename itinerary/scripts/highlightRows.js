@@ -1,7 +1,10 @@
 function highlightRows() {
+    console.log("highlightRows is here")
     if(!document.getElementsByTagName) return false;
     var rows = document.getElementsByTagName("tr");
     for (var i=0; i<rows.length; i++) {
+        console.log(i)
+        
         rows[i].onmouseover = function() {
             this.style.fontWeight = "bold";
         }
