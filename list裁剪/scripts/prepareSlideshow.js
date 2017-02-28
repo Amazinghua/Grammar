@@ -24,3 +24,4 @@ function prepareSlideshow() {
         moveElement("preview",-300,0,10);
      }
 }
+addLoadEvent(prepareSlideshow);
