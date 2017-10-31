@@ -1,0 +1,24 @@
+C:\Documents and Settings\Administrator>keytool -genkey -keystore joybirds.keyst
+ore -keyalg RSA -validity 10000 -alias joybirds.keystore
+输入keystore密码：joybirds-2012
+再次输入新密码: joybirds-2012
+您的名字与姓氏是什么？
+  [Unknown]：  www.joybirds.cn
+您的组织单位名称是什么？
+  [Unknown]：  joybirds
+您的组织名称是什么？
+  [Unknown]：  捷雁
+您所在的城市或区域名称是什么？
+  [Unknown]：  广州
+您所在的州或省份名称是什么？
+  [Unknown]：  广东
+该单位的两字母国家代码是什么
+  [Unknown]：  CN
+CN=www.joybirds.cn, OU=joybirds, O=捷雁, L=广州, ST=广东, C=CN 正确吗？
+  [否]：  y
+
+输入<joybirds.keystore>的主密码   joybirds-2012
+        （如果和 keystore 密码相同，按回车）：
+再次输入新密码:joybirds-2012
+
+C:\Documents and Settings\Administrator>

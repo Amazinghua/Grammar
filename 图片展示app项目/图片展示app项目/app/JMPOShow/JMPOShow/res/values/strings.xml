@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">图片展示</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_handle_limite">HandleLimite</string>
+    <string name="projectname">手机展示系统</string>
+    <string name="openset">已开启手机长亮显示</string>
+     <string name="closeset">已关闭手机长亮显示</string>
+   <string-array name="sports"> 
+      <item>item1</item> 
+      <item>item2</item> 
+      <item>item3</item>       
+  </string-array> 
+</resources>
