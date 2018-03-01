@@ -1,0 +1,583 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D13F5374-116C-4D14-9B42-46C274B515F7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wx_consume</RootNamespace>
+    <AssemblyName>Wx-consume</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Words">
+      <HintPath>..\packages\Aspose.Words.17.6\lib\net40\Aspose.Words.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Ajax_Newtest\Ajax_Newtest\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.江门市工商局一行赴利生车城研究部署放心消费创建活动.001.png" />
+    <Content Include="1.江门市工商局一行赴利生车城研究部署放心消费创建活动.002.png" />
+    <Content Include="3.我市严把食用农产品市场准入关.001.png" />
+    <Content Include="3.我市严把食用农产品市场准入关.002.png" />
+    <Content Include="3.我市严把食用农产品市场准入关.003.png" />
+    <Content Include="3.我市严把食用农产品市场准入关.004.png" />
+    <Content Include="3.我市严把食用农产品市场准入关.005.png" />
+    <Content Include="3.我市严把食用农产品市场准入关.006.png" />
+    <Content Include="announcement.aspx" />
+    <Content Include="another.aspx" />
+    <Content Include="bin\Aspose.Words.dll" />
+    <Content Include="bin\Interop.Microsoft.Office.Core.dll" />
+    <Content Include="bin\Interop.Office.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Wx-consume.dll" />
+    <Content Include="bin\Wx-consume.pdb" />
+    <Content Include="business.aspx" />
+    <Content Include="business_car.aspx" />
+    <Content Include="complaints.aspx" />
+    <Content Include="consume.aspx" />
+    <Content Include="css\basic.css" />
+    <Content Include="css\indexnew.css" />
+    <Content Include="css\news_unslider.css" />
+    <Content Include="css\showPage.css" />
+    <Content Include="examples\bootstrap.min.css" />
+    <Content Include="examples\bootstrap.min.js" />
+    <Content Include="examples\fileinput.css" />
+    <Content Include="examples\fileinput.js" />
+    <Content Include="examples\imgShow.html" />
+    <Content Include="examples\Jquery.min.js" />
+    <Content Include="examples\zh.js" />
+    <Content Include="img\1.4.png" />
+    <Content Include="img\sj.png" />
+    <Content Include="img\top.png" />
+    <Content Include="img\bottom.png" />
+    <Content Include="img\d.png" />
+    <Content Include="img\f.png" />
+    <Content Include="img\fxxf.png" />
+    <Content Include="img\g.png" />
+    <Content Include="img\IMG_2616.JPG" />
+    <Content Include="img\liico.png" />
+    <Content Include="img\s.png" />
+    <Content Include="img\sjzx.png" />
+    <Content Include="img\w.png" />
+    <Content Include="img\wjdc.png" />
+    <Content Include="img\x.png" />
+    <Content Include="img\xfjs.png" />
+    <Content Include="img\xwdt.png" />
+    <Content Include="img\zv.png" />
+    <Content Include="img\二维码.jpg" />
+    <Content Include="img\全面.png" />
+    <Content Include="img\公告公示.png" />
+    <Content Include="img\商家资讯.png" />
+    <Content Include="img\主.png" />
+    <Content Include="img\底.png" />
+    <Content Include="img\扫码关注  放心消费二维码.png" />
+    <Content Include="img\投诉流程.png" />
+    <Content Include="img\放心消费.png" />
+    <Content Include="img\新闻动态.png" />
+    <Content Include="img\法律法规.png" />
+    <Content Include="img\浅绿.png" />
+    <Content Include="img\消费警示.png" />
+    <Content Include="img\积极开展食品消费安全宣传教育 %281%29.jpg" />
+    <Content Include="img\积极开展食品消费安全宣传教育 %282%29.jpg" />
+    <Content Include="img\积极开展食品消费安全宣传教育 %283%29.JPG" />
+    <Content Include="img\积极开展食品消费安全宣传教育 %284%29.JPG" />
+    <Content Include="img\积极开展食品消费安全宣传教育 %285%29.JPG" />
+    <Content Include="img\积极开展食品消费安全宣传教育 %286%29.JPG" />
+    <Content Include="img\问卷调查.png" />
+    <Content Include="img\食品安全宣传周工作照片 %281%29.JPG" />
+    <Content Include="img\食品安全宣传周工作照片 %282%29.JPG" />
+    <Content Include="index.aspx" />
+    <Content Include="js\Ajax.js" />
+    <Content Include="js\anncuncement.js" />
+    <Content Include="js\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="js\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="js\bootstrap\css\bootstrap.css" />
+    <Content Include="js\bootstrap\css\bootstrap.min.css" />
+    <Content Include="js\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="js\bootstrap\js\bootstrap.js" />
+    <Content Include="js\bootstrap\js\bootstrap.min.js" />
+    <Content Include="js\bootstrap\js\modal.js" />
+    <Content Include="js\bootstrap\js\npm.js" />
+    <Content Include="js\business_car.js" />
+    <Content Include="js\commen_js\common.js" />
+    <Content Include="js\commen_js\jquery.cookie.min.js" />
+    <Content Include="js\commen_js\json2.js" />
+    <Content Include="js\complaints.js" />
+    <Content Include="js\consume.js" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\laws.js" />
+    <Content Include="js\news.js" />
+    <Content Include="js\news_unslider.js" />
+    <Content Include="js\showPage.js" />
+    <Content Include="js\show_car.js" />
+    <Content Include="js\show_complaints.js" />
+    <Content Include="js\show_consume.js" />
+    <Content Include="js\show_laws.js" />
+    <Content Include="js\show_news.js" />
+    <Content Include="js\show_warn.js" />
+    <Content Include="js\swiper\swiper-3.4.2.jquery.min.js" />
+    <Content Include="js\swiper\swiper-3.4.2.min.css" />
+    <Content Include="js\tools.js" />
+    <Content Include="js\unslider.min.js" />
+    <Content Include="js\warn.js" />
+    <Content Include="laws.aspx" />
+    <Content Include="news.aspx" />
+    <Content Include="obj\Debug\Interop.Microsoft.Office.Core.dll" />
+    <Content Include="obj\Debug\Wx-consume.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Wx-consume.dll" />
+    <Content Include="obj\Debug\Wx-consume.pdb" />
+    <Content Include="obj\x86\Debug\Interop.Microsoft.Office.Core.dll" />
+    <Content Include="obj\x86\Debug\Interop.Microsoft.Office.Interop.Word.dll" />
+    <Content Include="obj\x86\Debug\Interop.Office.dll" />
+    <Content Include="obj\x86\Debug\Wx-consume.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\Wx-consume.dll" />
+    <Content Include="obj\x86\Debug\Wx-consume.pdb" />
+    <Content Include="show_announce.aspx" />
+    <Content Include="show_car.aspx" />
+    <Content Include="show_complaints.aspx" />
+    <Content Include="show_consume.aspx" />
+    <Content Include="show_laws.aspx" />
+    <Content Include="show_news.aspx" />
+    <Content Include="show_warn.aspx" />
+    <Content Include="warn.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝成汽车.001.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝成汽车.002.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝成汽车.003.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝成汽车.004.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝成汽车.005.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝辉汽车.001.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝辉汽车.002.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝辉汽车.003.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝辉汽车.004.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则宝辉汽车.005.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则（江门万业）.001.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则（江门万业）.002.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则（江门万业）.003.png" />
+    <Content Include="创建放心消费示范店经营运行流程管理细则（江门万业）.004.png" />
+    <Content Include="宝辉消费维权人员.001.png" />
+    <Content Include="宝辉消费维权人员.002.png" />
+    <Content Include="汇通汽车资料.001.jpeg" />
+    <Content Include="汇通汽车资料.002.jpeg" />
+    <Content Include="汇通汽车资料.003.jpeg" />
+    <Content Include="汇通汽车资料.004.jpeg" />
+    <Content Include="汇通汽车资料.005.jpeg" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.001.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.002.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.003.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.004.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.005.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.006.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.007.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.008.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.009.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.010.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.011.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.012.png" />
+    <Content Include="江门南菱三菱店放心消费经营运行流程管理细则.013.png" />
+    <Content Include="江门市利生汽车销售有限公司创建放心消费示范店经营运行流程管理细则.001.png" />
+    <Content Include="江门市利生汽车销售有限公司创建放心消费示范店经营运行流程管理细则.002.png" />
+    <Content Include="江门市利生汽车销售有限公司创建放心消费示范店经营运行流程管理细则.003.png" />
+    <Content Include="江门市利生汽车销售有限公司创建放心消费示范店经营运行流程管理细则.004.png" />
+    <Content Include="江门市利生汽车销售有限公司创建放心消费示范店经营运行流程管理细则.005.png" />
+    <Content Include="江门怡诚-创建放心消费示范店经营运行流程管理细则.001.png" />
+    <Content Include="江门怡诚-创建放心消费示范店经营运行流程管理细则.002.png" />
+    <Content Include="江门怡诚-创建放心消费示范店经营运行流程管理细则.003.png" />
+    <Content Include="江门怡诚-创建放心消费示范店经营运行流程管理细则.004.png" />
+    <Content Include="江门裕立纳智捷汽车放心消费经营运行流程管理细则%281%29.001.png" />
+    <Content Include="江门裕立纳智捷汽车放心消费经营运行流程管理细则%281%29.002.png" />
+    <Content Include="江门裕立纳智捷汽车放心消费经营运行流程管理细则%281%29.003.png" />
+    <Content Include="江门裕立纳智捷汽车放心消费经营运行流程管理细则%281%29.004.jpeg" />
+    <Content Include="江门裕立纳智捷汽车放心消费经营运行流程管理细则%281%29.005.png" />
+    <Content Include="江门裕立纳智捷汽车放心消费经营运行流程管理细则%281%29.006.png" />
+    <Content Include="江门雪佛兰创建放心消费示范店经营运行流程管理细则.001.png" />
+    <Content Include="江门雪佛兰创建放心消费示范店经营运行流程管理细则.002.png" />
+    <Content Include="江门雪佛兰创建放心消费示范店经营运行流程管理细则.003.png" />
+    <Content Include="江门雪佛兰创建放心消费示范店经营运行流程管理细则.004.png" />
+    <Content Include="江门雪佛兰创建放心消费示范店经营运行流程管理细则.005.png" />
+    <Content Include="江门骏兴广汽本田放心消费经营运行流程管理细则%281%29.001.png" />
+    <Content Include="江门骏兴广汽本田放心消费经营运行流程管理细则%281%29.002.png" />
+    <Content Include="江门骏兴广汽本田放心消费经营运行流程管理细则%281%29.003.png" />
+    <Content Include="瑞华宏现汽车消费维权人员.001.jpeg" />
+    <Content Include="瑞华宏现汽车消费维权人员.002.jpeg" />
+    <Content Include="瑞华宏现汽车资料.001.jpeg" />
+    <Content Include="瑞华宏现汽车资料.002.jpeg" />
+    <Content Include="矩荣汽车资料.001.jpeg" />
+    <Content Include="矩荣汽车资料.002.jpeg" />
+    <Content Include="矩荣汽车资料.003.jpeg" />
+    <Content Include="矩荣汽车资料.004.jpeg" />
+    <Content Include="矩荣汽车资料.005.jpeg" />
+    <Content Include="通九州创建放心消费示范店经营运行流程管理细则.001.png" />
+    <Content Include="通九州创建放心消费示范店经营运行流程管理细则.002.png" />
+    <Content Include="通九州创建放心消费示范店经营运行流程管理细则.003.png" />
+    <Content Include="通九州创建放心消费示范店经营运行流程管理细则.004.png" />
+    <Content Include="通九州创建放心消费示范店经营运行流程管理细则.005.png" />
+    <Content Include="通九州汽车资料.001.jpeg" />
+    <Content Include="通九州汽车资料.002.jpeg" />
+    <Content Include="通九州汽车资料.003.jpeg" />
+    <Content Include="通九州消费维权人员.001.jpeg" />
+    <Content Include="长信消费维权人员.001.jpeg" />
+    <Content Include="长信消费维权人员.002.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="announcement.aspx.cs">
+      <DependentUpon>announcement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="announcement.aspx.designer.cs">
+      <DependentUpon>announcement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="another.aspx.cs">
+      <DependentUpon>another.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="another.aspx.designer.cs">
+      <DependentUpon>another.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="business.aspx.cs">
+      <DependentUpon>business.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="business.aspx.designer.cs">
+      <DependentUpon>business.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="business_car.aspx.cs">
+      <DependentUpon>business_car.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="business_car.aspx.designer.cs">
+      <DependentUpon>business_car.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="complaints.aspx.cs">
+      <DependentUpon>complaints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="complaints.aspx.designer.cs">
+      <DependentUpon>complaints.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consume.aspx.cs">
+      <DependentUpon>consume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consume.aspx.designer.cs">
+      <DependentUpon>consume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="examples\UploadFile.ashx.cs">
+      <DependentUpon>UploadFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="laws.aspx.cs">
+      <DependentUpon>laws.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="laws.aspx.designer.cs">
+      <DependentUpon>laws.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news.aspx.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news.aspx.designer.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="show.ashx.cs">
+      <DependentUpon>show.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="show_announce.aspx.cs">
+      <DependentUpon>show_announce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show_announce.aspx.designer.cs">
+      <DependentUpon>show_announce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="show_car.aspx.cs">
+      <DependentUpon>show_car.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show_car.aspx.designer.cs">
+      <DependentUpon>show_car.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="show_complaints.aspx.cs">
+      <DependentUpon>show_complaints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show_complaints.aspx.designer.cs">
+      <DependentUpon>show_complaints.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="show_consume.aspx.cs">
+      <DependentUpon>show_consume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show_consume.aspx.designer.cs">
+      <DependentUpon>show_consume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="show_laws.aspx.cs">
+      <DependentUpon>show_laws.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show_laws.aspx.designer.cs">
+      <DependentUpon>show_laws.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="show_news.aspx.cs">
+      <DependentUpon>show_news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show_news.aspx.designer.cs">
+      <DependentUpon>show_news.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="show_warn.aspx.cs">
+      <DependentUpon>show_warn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show_warn.aspx.designer.cs">
+      <DependentUpon>show_warn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="warn.aspx.cs">
+      <DependentUpon>warn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="warn.aspx.designer.cs">
+      <DependentUpon>warn.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="js\bootstrap\css\bootstrap.css.map" />
+    <Content Include="js\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="js\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="examples\UploadFile.ashx" />
+    <Content Include="show.ashx" />
+    <Content Include="packages.config" />
+    <Content Include="bin\Wx-consume.dll.config" />
+    <Content Include="obj\Debug\CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\Wx-consume.csproj.ResolveComReference.cache" />
+    <Content Include="obj\x86\Debug\CoreCompileInputs.cache" />
+    <Content Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\x86\Debug\Wx-consume.csproj.ResolveComReference.cache" />
+    <Content Include="examples\news\2.市工商局容新荣局长深入江海利生车城调研督导贯彻落实党的十九大精神.docx" />
+    <Content Include="examples\news\3.我市严把食用农产品市场准入关.docx" />
+    <Content Include="examples\law\1.中华人民共和国消费者权益保护法.docx" />
+    <Content Include="examples\law\2.中华人民共和国食品安全法.docx" />
+    <Content Include="examples\law\3.中华人民共和国产品质量法.docx" />
+    <Content Include="examples\law\4.网络购买商品七日无理由退货暂行办法.docx" />
+    <Content Include="examples\law\5.汽车维修质量纠纷调解办法.docx" />
+    <Content Include="examples\complaints\1.消费争议解决途径.docx" />
+    <Content Include="examples\consume\1.江门市人民政府办公室关于印发江门市放心消费创建活动工作方案的通知.docx" />
+    <Content Include="examples\news\1.江门市工商局一行赴利生车城研究部署放心消费创建活动.docx" />
+    <Content Include="examples\warn\不在4S店保养就“脱保”？属于“霸王条款”.docx" />
+    <Content Include="examples\warn\法律知识知多少？.docx" />
+    <Content Include="examples\warn\假医生坐诊卖熊胆汁，消费者维权商家退巨款.docx" />
+    <Content Include="examples\warn\老年人消费保健产品的温馨提示：.docx" />
+    <Content Include="examples\warn\朋友圈购买产品，三思而后行.docx" />
+    <Content Include="examples\warn\消费提示：朋友圈购买产品要谨慎.docx" />
+    <Content Include="examples\warn\预付卡办理，要多个心眼.docx" />
+    <Content Include="examples\warn\涨姿势：购车小知识，您get到了吗？.docx" />
+    <Content Include="examples\business\all\一汽钜荣创建放心消费示范店经营运行流程管理细则.doc" />
+    <Content Include="examples\business\all\创建放心消费示范店经营运行流程管理细则宝辉汽车.docx" />
+    <Content Include="examples\business\all\创建放心消费示范店经营运行流程管理细则（江门万业）.docx" />
+    <Content Include="examples\business\all\江门南菱三菱店放心消费经营运行流程管理细则.docx" />
+    <Content Include="examples\business\all\江门市利生汽车销售有限公司创建放心消费示范店经营运行流程管理细则.docx" />
+    <Content Include="examples\business\all\江门市通九州销售服务有限公司.docx" />
+    <Content Include="examples\business\all\江门怡诚-创建放心消费示范店经营运行流程管理细则.docx" />
+    <Content Include="examples\business\all\江门裕立纳智捷汽车放心消费经营运行流程管理细则%281%29.docx" />
+    <Content Include="examples\business\all\江门雪佛兰创建放心消费示范店经营运行流程管理细则.docx" />
+    <Content Include="examples\business\all\江门骏兴广汽本田放心消费经营运行流程管理细则%281%29.docx" />
+    <Content Include="examples\business\all\瑞华宏现汽车消费维权人员.docx" />
+    <Content Include="examples\business\all\瑞华宏现汽车资料.docx" />
+    <Content Include="examples\business\all\矩荣汽车资料.docx" />
+    <Content Include="examples\business\all\通九州创建放心消费示范店经营运行流程管理细则.docx" />
+    <Content Include="examples\business\bc\创建放心消费示范店经营运行流程管理细则宝成汽车.docx" />
+    <Content Include="examples\business\bc\消费维权工作人员公示宝成汽车.docx" />
+    <Content Include="examples\business\bh\创建放心消费示范店经营运行流程管理细则宝辉汽车.docx" />
+    <Content Include="examples\business\ht\江门雪佛兰创建放心消费示范店经营运行流程管理细则.docx" />
+    <Content Include="examples\business\jr\一汽钜荣创建放心消费示范店经营运行流程管理细则.doc" />
+    <Content Include="examples\business\jr\矩荣汽车资料.docx" />
+    <Content Include="examples\business\jx\江门骏兴广汽本田放心消费经营运行流程管理细则%281%29.docx" />
+    <Content Include="examples\business\jz\通九州创建放心消费示范店经营运行流程管理细则.docx" />
+    <Content Include="examples\business\ls\江门市利生汽车销售有限公司创建放心消费示范店经营运行流程管理细则.docx" />
+    <Content Include="examples\business\nl\江门南菱三菱店放心消费经营运行流程管理细则.docx" />
+    <Content Include="examples\business\rh\瑞华宏现汽车消费维权人员.docx" />
+    <Content Include="examples\business\rh\瑞华宏现汽车资料.docx" />
+    <Content Include="examples\business\wy\创建放心消费示范店经营运行流程管理细则（江门万业）.docx" />
+    <Content Include="examples\business\yc\江门怡诚-创建放心消费示范店经营运行流程管理细则.docx" />
+    <Content Include="examples\business\yl\江门裕立纳智捷汽车放心消费经营运行流程管理细则%281%29.docx" />
+    <Content Include="examples\txt\1.诚信经营承诺书.docx" />
+    <Content Include="examples\txt\2.消费纠纷处理制度.docx" />
+    <Content Include="examples\txt\3.江门市创建放心消费示范单位管理办法%28不含附件%29.docx" />
+    <Content Include="examples\consume\2.江门市放心消费示范单位建设评估管理办法.docx" />
+    <Content Include="examples\business\all\宝辉消费维权人员.docx" />
+    <Content Include="examples\business\all\创建放心消费示范店经营运行流程管理细则宝成汽车.docx" />
+    <Content Include="examples\business\all\汇通汽车资料.docx" />
+    <Content Include="examples\business\all\通九州汽车资料.docx" />
+    <Content Include="examples\business\all\通九州消费维权人员.docx" />
+    <Content Include="examples\business\all\消费维权工作人员公示宝成汽车.docx" />
+    <Content Include="examples\business\all\怡诚消费维权人员.docx" />
+    <Content Include="examples\business\all\长信消费维权人员.docx" />
+    <Content Include="examples\business\bh\宝辉消费维权人员.docx" />
+    <Content Include="examples\business\cx\长信消费维权人员.docx" />
+    <Content Include="examples\business\ht\汇通汽车资料.docx" />
+    <Content Include="examples\business\jz\通九州汽车资料.docx" />
+    <Content Include="examples\business\jz\通九州消费维权人员.docx" />
+    <Content Include="examples\business\yc\怡诚消费维权人员.docx" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\x86\" />
+    <Folder Include="html\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51110</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51110/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\Debug\Interop.Microsoft.Office.Core.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\Debug\Wx-consume.csproj.ResolveComReference.cache
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Wx-consume.dll.config
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Wx-consume.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Wx-consume.pdb
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\Debug\Wx-consume.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\Debug\Wx-consume.pdb
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\Debug\Wx-consume.csprojResolveAssemblyReference.cache

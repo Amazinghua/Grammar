@@ -1,0 +1,13 @@
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Wx-consume.dll.config
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Wx-consume.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Wx-consume.pdb
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Aspose.Words.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Aspose.Words.xml
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\bin\Interop.Microsoft.Office.Interop.Word.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\x86\Debug\Interop.Microsoft.Office.Interop.Word.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\x86\Debug\Interop.Office.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\x86\Debug\Wx-consume.csproj.ResolveComReference.cache
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\x86\Debug\Wx-consume.dll
+D:\Documents\Visual Studio 2017\Projects\Wx-consume\Wx-consume\obj\x86\Debug\Wx-consume.pdb

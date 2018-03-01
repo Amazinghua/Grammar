@@ -1,0 +1,31 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-xs-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-row {
+    width: 100%;
+}
+
+
+
+.sm-img {
+    vertical-align: middle;
+}
+
+.right-row {
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.ul-rows {
+    list-style-type: none;
+    color: white;
+    text-align: center
+}
+

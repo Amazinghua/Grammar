@@ -1,0 +1,7 @@
+﻿p:first-child {
+    display: none;
+}
+
+div #showPage {
+    padding: 8px;
+}

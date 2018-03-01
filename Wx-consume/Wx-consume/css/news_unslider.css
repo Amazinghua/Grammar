@@ -1,0 +1,18 @@
+﻿img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner {
+    position: relative;
+    overflow: auto;
+}
+
+    .banner li {
+        list-style: none;
+    }
+
+    .banner ul li {
+        float: left;
+    }
